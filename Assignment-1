@@ -1,0 +1,33 @@
+1A:
+=>In 2nd line list1 is copied to list2
+=>In 3rd line list2 1st element is replaced by '1'
+=>In 4th line elements of list1 are printed as
+  ['1','S','T','E'] because list2=list1 is given in 
+  2nd line
+=>In 5th line nothing is added to list1 But list1 is specified to list1
+  Now which is not equal to list2
+
+=>In 6th line even if 2nd element of list2 is replaced by 2 it won't 
+  affect list1
+=>In 7th line list1 is printed as ['1','S','T','E'] itself.
+=>In 5th line if list1+=[] then but the output will 
+  be same as if list2 ['1','2','T','E'].
+
+2A:
+for each i from range(n)
+for each j from range(n-i)
+if A[j-1]>A[j]
+Temp=A[j-1]
+A[j-1]=A[j]
+A[j]=Temp
+
+To search for element:
+We can do it by the function item
+
+3A:
+False for id(l1)==id(l2)
+True for id(str1)==id(str2)
+
+4A:
+if (L[i]*L[i]*L[i]*)%3==1
+L2[i]=L[i]
